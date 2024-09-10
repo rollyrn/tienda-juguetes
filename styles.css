@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+}
+
+#loginFormContainer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #007bff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
